@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5ebf8eb8-a736-4f09-93e9-eba8d05838e4</ProjectGuid>
+    <ProjectGuid>f00d428f-390e-48bc-8260-5871dd86d009</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Labs5.py</StartupFile>
+    <StartupFile>FinalTask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Labs</Name>
-    <RootNamespace>Labs</RootNamespace>
+    <Name>FinalTask</Name>
+    <RootNamespace>FinalTask</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,13 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Labs2.py" />
-    <Compile Include="Labs3.py" />
-    <Compile Include="Labs4.py" />
-    <Compile Include="Labs5.py" />
-    <Compile Include="game.py">
+    <Compile Include="control_funds.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FinalTask.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
